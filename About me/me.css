@@ -1,0 +1,322 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic styles for the body */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+header {
+    background: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#hero {
+    background: linear-gradient(135deg, #ff005a, #00d4ff);
+    padding: 100px 20px;
+    text-align: center;
+    color: #121212;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* About section */
+#about {
+    padding: 40px 20px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Skills section */
+#skills {
+    padding: 40px 20px;
+    background: #2a2a2a;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card h3 {
+    font-size: 1.5em;
+    color: #ff66ff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* Projects section */
+#projects {
+    padding: 40px 20px;
+    background: #2a2a2a;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff66ff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.project-card p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Certifications and Activities section */
+#certifications-activities {
+    padding: 40px 20px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+.certifications-activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#certifications, #activities {
+    width: 45%;
+    padding: 20px;
+}
+
+#certifications h2, #activities h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#certifications h2 {
+    color: #ffcc00;
+}
+
+#activities h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.activities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.activity-card {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.activity-card:hover {
+    transform: scale(1.05);
+}
+
+.activity-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff9933;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.activity-card p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contact section */
+#contact {
+    padding: 40px 20px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff9933;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #00d4ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #ff66ff;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .projects-container, .skills-container, .certifications-container, .activities-container {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}#certifications {
+    padding: 40px 20px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certification-card {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+}
+
+.certification-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ff9933;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.certification-card p {
+    font-family: 'Roboto', sans-serif;
+}
